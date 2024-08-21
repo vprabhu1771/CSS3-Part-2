@@ -1,0 +1,86 @@
+To style every other table row element, use the :nth-child(even) selector like this:
+
+Note: If you use (odd) instead of (even), the styling will occur on row 1,3,5 etc. instead of 2,4,6 etc.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Action</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Adventure</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Fiction</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Mystery</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+
+</body>
+</html>
+
+
+index.css
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}

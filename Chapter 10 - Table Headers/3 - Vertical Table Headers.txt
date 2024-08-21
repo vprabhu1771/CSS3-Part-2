@@ -1,0 +1,43 @@
+To use the first column as table headers, define the first cell in each row as a <th> element:
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <table style="width:30%">
+
+        <tr>
+          <th>Firstname</th>
+          <td>Prabhu</td>
+          <td>Kumar</td>
+        </tr>
+
+        <tr>
+          <th>Lastname</th>
+          <td>V</td>
+          <td>J</td>
+        </tr>
+
+        <tr>
+          <th>Age</th>  
+          <td>29</td>
+          <td>94</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
+
+index.css
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,44 @@
+You can have a header that spans over two or more columns.
+
+To do this, use the colspan attribute on the <th> element:
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <table style="width:30%">
+
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+
+        <tr>
+          <td>Prabhu</td>
+          <td>V</td>
+          <td>29</td>
+        </tr>
+
+        <tr>
+          <td>Suresh</td>
+          <td>M</td>
+          <td>54</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
+
+index.css
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

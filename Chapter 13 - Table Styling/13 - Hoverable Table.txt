@@ -1,0 +1,85 @@
+Use the :hover selector on tr to highlight table rows on mouse over:
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Action</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Adventure</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Fiction</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Mystery</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+
+</body>
+</html>
+
+
+index.css
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+  
+tr:hover {
+    background-color: #D6EEEE;
+}

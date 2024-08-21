@@ -1,0 +1,62 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <p class="text-overline overline-red solid">Cuddalore</p>
+
+    <p class="text-overline overline-red double">Cuddalore</p>
+
+    <p class="text-overline overline-red dotted">Cuddalore</p>
+
+    <p class="text-overline overline-red dashed">Cuddalore</p>
+
+    <p class="text-overline overline-red wavy">Cuddalore</p>
+   
+</body>
+</html>
+
+main.css
+
+/* Overline text */
+.text-overline {
+    text-decoration-line: overline;
+}
+
+/* Specify overline color */
+.overline-red {
+    text-decoration-color: red;
+}
+
+/* Solid overline */
+.solid{
+    text-decoration-style: solid;
+}
+
+/* Double overline */
+.double{
+    text-decoration-style: double;
+}
+
+/* Dotted overline */
+.dotted{
+    text-decoration-style: dotted;
+}
+
+/* Dashed overline */
+.dashed{
+    text-decoration-style: dashed;
+}
+
+/* Wavy overline */
+.wavy{
+    text-decoration-style: wavy;
+}

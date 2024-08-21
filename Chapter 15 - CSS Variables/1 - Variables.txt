@@ -1,0 +1,24 @@
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>i am from cuddalore</p>
+
+</body>
+</html>
+
+
+index.css
+
+:root {
+    --emerald: #2ecc71;
+}
+
+p {
+    color: var(--emerald);
+}

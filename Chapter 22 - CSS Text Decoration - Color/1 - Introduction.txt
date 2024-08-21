@@ -1,0 +1,7 @@
+Text decoration in CSS is used to control the appearance of text, and it includes properties like 
+
+text-decoration
+
+text-decoration-color
+
+Here are examples of each:

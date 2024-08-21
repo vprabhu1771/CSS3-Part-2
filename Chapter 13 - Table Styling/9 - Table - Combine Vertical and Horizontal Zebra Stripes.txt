@@ -1,0 +1,87 @@
+You can combine the styling from the two examples above and you will have stripes on every other row and every other column.
+
+If you use a transparent color you will get an overlapping effect.
+
+Use an rgba() color to specify the transparency of the color:
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Action</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Adventure</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Fiction</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Mystery</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+
+</body>
+</html>
+
+
+index.css
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+  
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+  
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}

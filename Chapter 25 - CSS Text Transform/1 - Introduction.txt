@@ -1,0 +1,13 @@
+CSS text-transform property is used to control the capitalization of text. 
+
+It can be used to transform text to 
+
+uppercase, 
+
+lowercase, 
+
+capitalize the first letter of each word, or 
+
+make the text appear in its original case. 
+
+Here are some examples:

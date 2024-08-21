@@ -1,0 +1,62 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+	<p class="text-line-through line-through-red solid">Cuddalore</p>
+
+	<p class="text-line-through line-through-red double">Cuddalore</p>
+
+	<p class="text-line-through line-through-red dotted">Cuddalore</p>
+
+	<p class="text-line-through line-through-red dashed">Cuddalore</p>
+
+	<p class="text-line-through line-through-red wavy">Cuddalore</p>
+   
+</body>
+</html>
+
+main.css
+
+/* Line-through text */
+.text-line-through {
+    text-decoration-line: line-through;
+}
+
+/* Specify line-through color */
+.line-through-red {
+    text-decoration-color: red;
+}
+
+/* Solid line-through */
+.solid{
+    text-decoration-style: solid;
+}
+
+/* Double line-through */
+.double{
+    text-decoration-style: double;
+}
+
+/* Dotted line-through */
+.dotted{
+    text-decoration-style: dotted;
+}
+
+/* Dashed line-through */
+.dashed{
+    text-decoration-style: dashed;
+}
+
+/* Wavy line-through */
+.wavy{
+    text-decoration-style: wavy;
+}

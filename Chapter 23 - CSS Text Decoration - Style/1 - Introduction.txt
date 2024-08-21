@@ -1,0 +1,43 @@
+Text decoration in  is used to control the appearance of text, and it includes properties like 
+
+text-decoration
+
+text-decoration-color
+
+text-decoration-style
+
+The `text-decoration-style` property in  specifies the style of the lines specified by the `text-decoration-line` property. Here is a list of possible values for `text-decoration-style`:
+
+1. **solid:** The default value. Creates a solid line.
+
+    
+    text-decoration-style: solid;
+    
+
+2. **double:** Creates a double line.
+
+    
+    text-decoration-style: double;
+    
+
+3. **dotted:** Creates a dotted line.
+
+    
+    text-decoration-style: dotted;
+    
+
+4. **dashed:** Creates a dashed line.
+
+    
+    text-decoration-style: dashed;
+    
+
+5. **wavy:** Creates a wavy line.
+
+    
+    text-decoration-style: wavy;
+    
+
+These values control the appearance of the line created by the `text-decoration-line` property. You can use these styles to achieve different visual effects for underlines, overlines, and line-throughs in your text.
+
+Here are examples of each:

@@ -1,0 +1,62 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <p class="text-underline underline-red solid">Cuddalore</p>
+
+    <p class="text-underline underline-red double">Cuddalore</p>
+
+    <p class="text-underline underline-red dotted">Cuddalore</p>
+
+    <p class="text-underline underline-red dashed">Cuddalore</p>
+
+    <p class="text-underline underline-red wavy">Cuddalore</p>
+   
+</body>
+</html>
+
+main.css
+
+/* Underline text */
+.text-underline {
+    text-decoration-line: underline;
+}
+
+/* Specify underline color */
+.underline-red{
+    text-decoration-color: red;
+}
+
+/* Solid underline */
+.solid{
+    text-decoration-style: solid;
+}
+
+/* Double underline */
+.double{
+    text-decoration-style: double;
+}
+
+/* Dotted underline */
+.dotted{
+    text-decoration-style: dotted;
+}
+
+/* Dashed underline */
+.dashed{
+    text-decoration-style: dashed;
+}
+
+/* Wavy underline */
+.wavy{
+    text-decoration-style: wavy;
+}

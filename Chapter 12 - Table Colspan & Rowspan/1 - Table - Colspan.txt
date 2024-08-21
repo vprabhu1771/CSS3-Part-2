@@ -1,0 +1,52 @@
+To make a cell span over multiple columns, use the colspan attribute:
+
+Note: The value of the colspan attribute represents the number of columns to span.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <table style="width:30%">
+
+        <thead>
+
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Prabhu</td>
+                <td>V</td>
+                <td>29</td>
+            </tr>
+
+            <tr>
+                <td>Suresh</td>
+                <td>K</td>
+                <td>40</td>
+            </tr>
+
+        </tbody>
+        
+    </table> 
+
+</body>
+</html>
+
+
+index.css
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

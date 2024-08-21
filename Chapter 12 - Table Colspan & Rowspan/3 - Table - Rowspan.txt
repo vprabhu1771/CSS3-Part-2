@@ -1,0 +1,43 @@
+To make a cell span over multiple rows, use the rowspan attribute:
+
+Note: The value of the rowspan attribute represents the number of rows to span.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <table style="width:30%">
+
+        <tr>
+            <th>Name</th>
+            <td>Prabhu V</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>9944177142</td>
+        </tr>
+        
+        <tr>
+            <td>8248885192</td>
+        </tr>
+
+        </tbody>
+        
+    </table>
+
+</body>
+</html>
+
+
+index.css
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

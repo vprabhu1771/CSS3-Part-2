@@ -1,0 +1,25 @@
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>i am from cuddalore</p>
+
+</body>
+</html>
+
+
+index.css
+
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+
+p {    
+    font-family: Roboto;
+}

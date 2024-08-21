@@ -1,0 +1,62 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <p class="text-multiple multiple-red solid">Cuddalore</p>
+
+    <p class="text-multiple multiple-red double">Cuddalore</p>
+
+    <p class="text-multiple multiple-red dotted">Cuddalore</p>
+
+    <p class="text-multiple multiple-red dashed">Cuddalore</p>
+
+    <p class="text-multiple multiple-red wavy">Cuddalore</p>
+   
+</body>
+</html>
+
+main.css
+
+/* Multiple decorations */
+.text-multiple {
+    text-decoration-line: underline overline line-through;
+}
+
+/* Specify multiple color */
+.multiple-red {
+    text-decoration-color: red;
+}
+
+/* Solid multiple */
+.solid{
+    text-decoration-style: solid;
+}
+
+/* Double multiple */
+.double{
+    text-decoration-style: double;
+}
+
+/* Dotted multiple */
+.dotted{
+    text-decoration-style: dotted;
+}
+
+/* Dashed multiple */
+.dashed{
+    text-decoration-style: dashed;
+}
+
+/* Wavy multiple */
+.wavy{
+    text-decoration-style: wavy;
+}

@@ -1,0 +1,29 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <p class="text-multiple multiple-red">Cuddalore</p>
+   
+</body>
+</html>
+
+main.css
+
+/* Multiple decorations */
+.text-multiple {
+    text-decoration-line: underline overline line-through;
+}
+
+/* Specify multiple color */
+.multiple-red {
+    text-decoration-color: red;
+}

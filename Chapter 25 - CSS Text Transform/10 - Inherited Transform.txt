@@ -1,0 +1,33 @@
+You can also inherit the text-transform value from a parent element:
+
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="parent-transform">
+
+        <p class="child-inherit">This text will inherit the uppercase transformation.</p>
+        
+    </div>
+   
+</body>
+</html>
+
+main.css
+
+.parent-transform {
+    text-transform: uppercase;
+}
+
+.child-inherit {
+    text-transform: inherit;
+}
